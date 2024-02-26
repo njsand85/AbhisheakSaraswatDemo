@@ -16,7 +16,7 @@ if fl is not None:
     st.write(filename)
     df = pd.read_csv(filename, encoding = "ISO-8859-1")
 else:
-    os.chdir(r"C:\Users\nsand\OneDrive - Deloitte (O365D)\Desktop\Python Projects\Streamlit Dev\ProjectPlan")
+    #os.chdir(r"C:\Users\nsand\OneDrive - Deloitte (O365D)\Desktop\Python Projects\Streamlit Dev\ProjectPlan")
     df = pd.read_csv("Sample - Superstore.csv", encoding = "ISO-8859-1")
     #print(df)
 
